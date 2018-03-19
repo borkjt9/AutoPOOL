@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B2F859D1F967B4C00DA8AD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B2F859C1F967B3E00DA8AD7 /* Assets.xcassets */; };
+		4B2F859F1F969EB400DA8AD7 /* capture-sound-effect.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4B2F859E1F969E8300DA8AD7 /* capture-sound-effect.wav */; };
+		4B2F85A01F969EBD00DA8AD7 /* micross.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B3028FA1F8DED0F0070F4D4 /* micross.ttf */; };
+		4B2F85A21F96AB9800DA8AD7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B3028FF1F8DEE510070F4D4 /* Info.plist */; };
+		4B2F85A31F96AD2400DA8AD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B2F85A11F96A97C00DA8AD7 /* LaunchScreen.storyboard */; };
+		4B3028E61F8DECA10070F4D4 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3028E31F8DECA10070F4D4 /* extensions.swift */; };
+		4B3028E71F8DECA10070F4D4 /* systemInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3028E41F8DECA10070F4D4 /* systemInformation.swift */; };
+		4B3028E81F8DECA10070F4D4 /* classInitializers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3028E51F8DECA10070F4D4 /* classInitializers.swift */; };
+		4B3028F51F8DECF60070F4D4 /* FinalAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3028F11F8DECF60070F4D4 /* FinalAlertVC.swift */; };
+		4B3028F61F8DECF60070F4D4 /* LaunchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3028F21F8DECF60070F4D4 /* LaunchVC.swift */; };
+		4B3028F71F8DECF60070F4D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3028F31F8DECF60070F4D4 /* AppDelegate.swift */; };
+		4B3028F81F8DECF60070F4D4 /* SubmitFareOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3028F41F8DECF60070F4D4 /* SubmitFareOrder.swift */; };
+		4B3028FC1F8DED420070F4D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B3028FB1F8DED420070F4D4 /* Main.storyboard */; };
+		4B3029041F8DF2EB0070F4D4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B3029031F8DF2E80070F4D4 /* GoogleService-Info.plist */; };
+		4B719E5F1F7B55C600A4A289 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 4B719E5E1F7B55C600A4A289 /* Podfile */; };
+		AF7638E63F38A9492448194C /* Pods_PoolAlert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE09C8FB953D56F1F5AB5D54 /* Pods_PoolAlert.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B719E371F7AD96500A4A289 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B719E1A1F7AD96500A4A289 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B719E211F7AD96500A4A289;
+			remoteInfo = PoolPing;
+		};
+		4B719E421F7AD96500A4A289 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B719E1A1F7AD96500A4A289 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B719E211F7AD96500A4A289;
+			remoteInfo = PoolPing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CB9ADA7E1213AF5AE90CD5E /* Pods-PoolAlert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoolAlert.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PoolAlert/Pods-PoolAlert.debug.xcconfig"; sourceTree = "<group>"; };
+		4B2F859C1F967B3E00DA8AD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B2F859E1F969E8300DA8AD7 /* capture-sound-effect.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "capture-sound-effect.wav"; sourceTree = "<group>"; };
+		4B2F85A11F96A97C00DA8AD7 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B3028E21F8DECA00070F4D4 /* PoolAlert-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PoolAlert-Bridging-Header.h"; sourceTree = "<group>"; };
+		4B3028E31F8DECA10070F4D4 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = extensions.swift; path = PoolAlert/extensions.swift; sourceTree = "<group>"; };
+		4B3028E41F8DECA10070F4D4 /* systemInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = systemInformation.swift; path = PoolAlert/systemInformation.swift; sourceTree = "<group>"; };
+		4B3028E51F8DECA10070F4D4 /* classInitializers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = classInitializers.swift; path = PoolAlert/classInitializers.swift; sourceTree = "<group>"; };
+		4B3028F11F8DECF60070F4D4 /* FinalAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FinalAlertVC.swift; path = PoolAlert/FinalAlertVC.swift; sourceTree = "<group>"; };
+		4B3028F21F8DECF60070F4D4 /* LaunchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LaunchVC.swift; path = PoolAlert/LaunchVC.swift; sourceTree = "<group>"; };
+		4B3028F31F8DECF60070F4D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = PoolAlert/AppDelegate.swift; sourceTree = "<group>"; };
+		4B3028F41F8DECF60070F4D4 /* SubmitFareOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SubmitFareOrder.swift; path = PoolAlert/SubmitFareOrder.swift; sourceTree = "<group>"; };
+		4B3028FA1F8DED0F0070F4D4 /* micross.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = micross.ttf; sourceTree = "<group>"; };
+		4B3028FB1F8DED420070F4D4 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4B3028FD1F8DEE2F0070F4D4 /* PoolAlert.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PoolAlert.entitlements; sourceTree = "<group>"; };
+		4B3028FF1F8DEE510070F4D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B3029031F8DF2E80070F4D4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4B719E221F7AD96500A4A289 /* PoolAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoolAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B719E361F7AD96500A4A289 /* PoolAlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoolAlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B719E411F7AD96500A4A289 /* PoolAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoolAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B719E5E1F7B55C600A4A289 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DC18F90D9453285F36D476A3 /* Pods-PoolAlert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoolAlert.release.xcconfig"; path = "Pods/Target Support Files/Pods-PoolAlert/Pods-PoolAlert.release.xcconfig"; sourceTree = "<group>"; };
+		FE09C8FB953D56F1F5AB5D54 /* Pods_PoolAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PoolAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B719E1F1F7AD96500A4A289 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7638E63F38A9492448194C /* Pods_PoolAlert.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B719E331F7AD96500A4A289 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B719E3E1F7AD96500A4A289 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B2F859A1F96749C00DA8AD7 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				4B2F859E1F969E8300DA8AD7 /* capture-sound-effect.wav */,
+				4B3028E31F8DECA10070F4D4 /* extensions.swift */,
+				4B3028E51F8DECA10070F4D4 /* classInitializers.swift */,
+				4B3028FA1F8DED0F0070F4D4 /* micross.ttf */,
+				4B3028E41F8DECA10070F4D4 /* systemInformation.swift */,
+			);
+			name = Global;
+			sourceTree = "<group>";
+		};
+		4B719E191F7AD96500A4A289 = {
+			isa = PBXGroup;
+			children = (
+				4B3028FD1F8DEE2F0070F4D4 /* PoolAlert.entitlements */,
+				4B3028FB1F8DED420070F4D4 /* Main.storyboard */,
+				4B2F85A11F96A97C00DA8AD7 /* LaunchScreen.storyboard */,
+				4B719E5E1F7B55C600A4A289 /* Podfile */,
+				4B3028F31F8DECF60070F4D4 /* AppDelegate.swift */,
+				4B2F859C1F967B3E00DA8AD7 /* Assets.xcassets */,
+				4B3029031F8DF2E80070F4D4 /* GoogleService-Info.plist */,
+				4B3028F11F8DECF60070F4D4 /* FinalAlertVC.swift */,
+				4B3028F21F8DECF60070F4D4 /* LaunchVC.swift */,
+				4B3028F41F8DECF60070F4D4 /* SubmitFareOrder.swift */,
+				4B3028FF1F8DEE510070F4D4 /* Info.plist */,
+				4B2F859A1F96749C00DA8AD7 /* Global */,
+				4B719E231F7AD96500A4A289 /* Products */,
+				6034ECE32FF8BD6B7D83EB36 /* Pods */,
+				70FCC8DC933A863F6A14FB18 /* Frameworks */,
+				4B3028E21F8DECA00070F4D4 /* PoolAlert-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		4B719E231F7AD96500A4A289 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B719E221F7AD96500A4A289 /* PoolAlert.app */,
+				4B719E361F7AD96500A4A289 /* PoolAlertTests.xctest */,
+				4B719E411F7AD96500A4A289 /* PoolAlertUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6034ECE32FF8BD6B7D83EB36 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CB9ADA7E1213AF5AE90CD5E /* Pods-PoolAlert.debug.xcconfig */,
+				DC18F90D9453285F36D476A3 /* Pods-PoolAlert.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		70FCC8DC933A863F6A14FB18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE09C8FB953D56F1F5AB5D54 /* Pods_PoolAlert.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B719E211F7AD96500A4A289 /* PoolAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B719E4A1F7AD96500A4A289 /* Build configuration list for PBXNativeTarget "PoolAlert" */;
+			buildPhases = (
+				4ED21B67B5381FF7FB145106 /* [CP] Check Pods Manifest.lock */,
+				4B719E1E1F7AD96500A4A289 /* Sources */,
+				4B719E1F1F7AD96500A4A289 /* Frameworks */,
+				4B719E201F7AD96500A4A289 /* Resources */,
+				E015C2E8C53FCBAE7923EE67 /* [CP] Embed Pods Frameworks */,
+				F8554E466ED7D3B762591C7D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PoolAlert;
+			productName = PoolPing;
+			productReference = 4B719E221F7AD96500A4A289 /* PoolAlert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B719E351F7AD96500A4A289 /* PoolAlertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B719E4D1F7AD96500A4A289 /* Build configuration list for PBXNativeTarget "PoolAlertTests" */;
+			buildPhases = (
+				4B719E321F7AD96500A4A289 /* Sources */,
+				4B719E331F7AD96500A4A289 /* Frameworks */,
+				4B719E341F7AD96500A4A289 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B719E381F7AD96500A4A289 /* PBXTargetDependency */,
+			);
+			name = PoolAlertTests;
+			productName = PoolPingTests;
+			productReference = 4B719E361F7AD96500A4A289 /* PoolAlertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B719E401F7AD96500A4A289 /* PoolAlertUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B719E501F7AD96500A4A289 /* Build configuration list for PBXNativeTarget "PoolAlertUITests" */;
+			buildPhases = (
+				4B719E3D1F7AD96500A4A289 /* Sources */,
+				4B719E3E1F7AD96500A4A289 /* Frameworks */,
+				4B719E3F1F7AD96500A4A289 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B719E431F7AD96500A4A289 /* PBXTargetDependency */,
+			);
+			name = PoolAlertUITests;
+			productName = PoolPingUITests;
+			productReference = 4B719E411F7AD96500A4A289 /* PoolAlertUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B719E1A1F7AD96500A4A289 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "John Borkowski";
+				TargetAttributes = {
+					4B719E211F7AD96500A4A289 = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					4B719E351F7AD96500A4A289 = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4B719E211F7AD96500A4A289;
+					};
+					4B719E401F7AD96500A4A289 = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4B719E211F7AD96500A4A289;
+					};
+				};
+			};
+			buildConfigurationList = 4B719E1D1F7AD96500A4A289 /* Build configuration list for PBXProject "PoolAlert" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B719E191F7AD96500A4A289;
+			productRefGroup = 4B719E231F7AD96500A4A289 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B719E211F7AD96500A4A289 /* PoolAlert */,
+				4B719E351F7AD96500A4A289 /* PoolAlertTests */,
+				4B719E401F7AD96500A4A289 /* PoolAlertUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B719E201F7AD96500A4A289 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B719E5F1F7B55C600A4A289 /* Podfile in Resources */,
+				4B2F85A31F96AD2400DA8AD7 /* LaunchScreen.storyboard in Resources */,
+				4B2F85A01F969EBD00DA8AD7 /* micross.ttf in Resources */,
+				4B3028FC1F8DED420070F4D4 /* Main.storyboard in Resources */,
+				4B2F859D1F967B4C00DA8AD7 /* Assets.xcassets in Resources */,
+				4B2F859F1F969EB400DA8AD7 /* capture-sound-effect.wav in Resources */,
+				4B3029041F8DF2EB0070F4D4 /* GoogleService-Info.plist in Resources */,
+				4B2F85A21F96AB9800DA8AD7 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B719E341F7AD96500A4A289 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B719E3F1F7AD96500A4A289 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4ED21B67B5381FF7FB145106 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PoolAlert-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E015C2E8C53FCBAE7923EE67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PoolAlert/Pods-PoolAlert-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PoolAlert/Pods-PoolAlert-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8554E466ED7D3B762591C7D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PoolAlert/Pods-PoolAlert-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PoolAlert/Pods-PoolAlert-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B719E1E1F7AD96500A4A289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3028F71F8DECF60070F4D4 /* AppDelegate.swift in Sources */,
+				4B3028F81F8DECF60070F4D4 /* SubmitFareOrder.swift in Sources */,
+				4B3028F51F8DECF60070F4D4 /* FinalAlertVC.swift in Sources */,
+				4B3028E81F8DECA10070F4D4 /* classInitializers.swift in Sources */,
+				4B3028E61F8DECA10070F4D4 /* extensions.swift in Sources */,
+				4B3028F61F8DECF60070F4D4 /* LaunchVC.swift in Sources */,
+				4B3028E71F8DECA10070F4D4 /* systemInformation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B719E321F7AD96500A4A289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B719E3D1F7AD96500A4A289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B719E381F7AD96500A4A289 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B719E211F7AD96500A4A289 /* PoolAlert */;
+			targetProxy = 4B719E371F7AD96500A4A289 /* PBXContainerItemProxy */;
+		};
+		4B719E431F7AD96500A4A289 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B719E211F7AD96500A4A289 /* PoolAlert */;
+			targetProxy = 4B719E421F7AD96500A4A289 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4B719E481F7AD96500A4A289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B719E491F7AD96500A4A289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B719E4B1F7AD96500A4A289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CB9ADA7E1213AF5AE90CD5E /* Pods-PoolAlert.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = PoolAlert.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q62L89WFJL;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.poolalert.boon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "PoolAlert-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4B719E4C1F7AD96500A4A289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC18F90D9453285F36D476A3 /* Pods-PoolAlert.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = PoolAlert.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q62L89WFJL;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.poolalert.boon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "PoolAlert-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4B719E4E1F7AD96500A4A289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AutoPool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = boon.AutoPoolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PoolAlert.app/PoolAlert";
+			};
+			name = Debug;
+		};
+		4B719E4F1F7AD96500A4A289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AutoPool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = boon.AutoPoolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PoolAlert.app/PoolAlert";
+			};
+			name = Release;
+		};
+		4B719E511F7AD96500A4A289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AutoPool;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = boon.AutoPoolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PoolPing;
+			};
+			name = Debug;
+		};
+		4B719E521F7AD96500A4A289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AutoPool;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = boon.AutoPoolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PoolPing;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B719E1D1F7AD96500A4A289 /* Build configuration list for PBXProject "PoolAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B719E481F7AD96500A4A289 /* Debug */,
+				4B719E491F7AD96500A4A289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B719E4A1F7AD96500A4A289 /* Build configuration list for PBXNativeTarget "PoolAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B719E4B1F7AD96500A4A289 /* Debug */,
+				4B719E4C1F7AD96500A4A289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B719E4D1F7AD96500A4A289 /* Build configuration list for PBXNativeTarget "PoolAlertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B719E4E1F7AD96500A4A289 /* Debug */,
+				4B719E4F1F7AD96500A4A289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B719E501F7AD96500A4A289 /* Build configuration list for PBXNativeTarget "PoolAlertUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B719E511F7AD96500A4A289 /* Debug */,
+				4B719E521F7AD96500A4A289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B719E1A1F7AD96500A4A289 /* Project object */;
+}
